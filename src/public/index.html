@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anypoint Challenge</title>
+  </head>
+  <body>
+    <div id="app">
+      Lista separado por virgula:
+      <input type="text" v-model="arrayText" />
+      <button @click="showArrayOrdered">Enviar</button>
+      <span v-if="arrayResult">{{ arrayResult }}</span>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+  <script src="static/index.js"></script>
+</html>
